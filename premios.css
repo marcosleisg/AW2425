@@ -1,0 +1,14 @@
+.titulo {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right,rgb(196,53,116) ,rgb(108, 0, 48));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.aaa{
+    color: yellow;
+}

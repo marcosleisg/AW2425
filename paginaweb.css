@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&effect=neon|outline|emboss|shadow-multiple|fire-animation");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+@import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+.navegacion {
+    background-color: black;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav ul li {
+    margin: 0 43px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.5s;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+.titulos {
+    color: yellow;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+body{
+    background: linear-gradient(to right,rgb(196,53,116) ,rgb(108, 0, 48));
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img{transition: 0.5 ease;} 
+img:hover {
+    transform: scale(1.1);
+} 

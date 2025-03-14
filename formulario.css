@@ -1,0 +1,42 @@
+
+form {
+    margin: 0 auto;
+    width: 90%; 
+    max-width: 700px;
+    }
+    
+    input, select, textarea {
+    width: 500px;
+    margin-bottom: 10px;
+    }
+    
+    label {
+    display: inline-block;
+    width: 100px;
+    }
+    
+    input:focus, select:focus, textarea:focus {
+    outline: 2px solid green;
+    }
+    
+    
+    input[type="submit"] {
+    margin: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 0%;
+    
+    }
+    
+    input:disabled[type="text"], input[type="identi"] {
+        background-color: gray;
+    }
+
+    input[type="text"], textarea {
+    border: 1px dotted black;
+    background-color: tomato
+    }
+
+    body {
+        margin: 5%;
+    }
